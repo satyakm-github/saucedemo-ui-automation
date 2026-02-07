@@ -66,7 +66,8 @@ saucedemo-ui-automation/
 ---
 
 🚀 How to Run the Tests
-▶️ Option 1: Using Eclipse IDE
+
+ ▶️ Option 1: Using Eclipse IDE
 
 Import the project as a Maven Project
 
@@ -79,14 +80,14 @@ Right-click → Run As → TestNG Suite
 mvn test
 
 ```
-
+---
 📊 Test Reports
 
 Uses default TestNG HTML reports
 
 Reports are generated at: test-output/index.html
 
-
+---
 🧩 Key Design Highlights
 
 Clean and structured Maven project layout
@@ -101,10 +102,12 @@ Strong assertions instead of console print statements
 
 Stable locators with explicit waits where required
 
+---
 🌐 Application Under Test
 
 URL: https://www.saucedemo.com/
 
+---
 🔮 Future Enhancements
 
 Refactor framework to Page Object Model (POM)
