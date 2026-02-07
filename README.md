@@ -68,74 +68,74 @@ saucedemo-ui-automation/
 ---
 
 ```
-🚀 How to Run the Tests
+## 🚀 How to Run the Tests
 
- ▶️ Option 1: Using Eclipse IDE
+### ▶️ Option 1: Using Eclipse IDE
 
-Import the project as a Maven Project
+- **Import the project as a Maven Project
 
-Locate the testng.xml file
+- **Locate the testng.xml file
 
-Right-click → Run As → TestNG Suite
+- **Right-click → Run As → TestNG Suite
 
-▶️ Option 2: Using Maven (Command Line)
+### ▶️ Option 2: Using Maven (Command Line)
 
-mvn test
-
-```
----
-
-```
-
-📊 Test Reports
-
-Uses default TestNG HTML reports
-
-Reports are generated at: test-output/index.html
-
+- **mvn test
 
 ```
 ---
 
 ```
 
-🧩 Key Design Highlights
+## 📊 Test Reports
 
-Clean and structured Maven project layout
+- **Uses default TestNG HTML reports
 
-Test lifecycle handled using @BeforeMethod and @AfterMethod
+- **Reports are generated at: test-output/index.html
 
-Reusable helper classes for common flows (e.g., login)
-
-Tests are independent with no shared state
-
-Strong assertions instead of console print statements
-
-Stable locators with explicit waits where required
-
-```
-
----
-
-```
-🌐 Application Under Test
-
-URL: https://www.saucedemo.com/
 
 ```
 ---
 
 ```
 
-🔮 Future Enhancements
+## 🧩 Key Design Highlights
 
-Refactor framework to Page Object Model (POM)
+- **Clean and structured Maven project layout
 
-Integrate Extent Reports
+- **Test lifecycle handled using @BeforeMethod and @AfterMethod
 
-Add screenshot capture on test failure
+- **Reusable helper classes for common flows (e.g., login)
 
-CI integration using GitHub Actions
+- **Tests are independent with no shared state
+
+- **Strong assertions instead of console print statements
+
+- **Stable locators with explicit waits where required
+
+```
+
+---
+
+```
+## 🌐 Application Under Test
+
+- **URL: https://www.saucedemo.com/
+
+```
+---
+
+```
+
+## 🔮 Future Enhancements
+
+- **Refactor framework to Page Object Model (POM)
+
+- **Integrate Extent Reports
+
+- **Add screenshot capture on test failure
+
+- **CI integration using GitHub Actions
 
 ```
 ---
