@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Suite">
+    <test name="Smoke Tests">
+        <classes>
+            <class name="com.keerthi.automation.saucedemo.SauceDemoSmokeTests"/>
+        </classes>
+    </test>
+</suite>
