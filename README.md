@@ -65,9 +65,6 @@ saucedemo-ui-automation/
 
 ---
 
----
-
-```
 ## 🚀 How to Run the Tests
 
 ### ▶️ Option 1: Using Eclipse IDE
@@ -82,10 +79,7 @@ saucedemo-ui-automation/
 
 - **mvn test
 
-```
 ---
-
-```
 
 ## 📊 Test Reports
 
@@ -93,11 +87,7 @@ saucedemo-ui-automation/
 
 - **Reports are generated at: test-output/index.html
 
-
-```
 ---
-
-```
 
 ## 🧩 Key Design Highlights
 
@@ -113,19 +103,13 @@ saucedemo-ui-automation/
 
 - **Stable locators with explicit waits where required
 
-```
-
 ---
 
-```
 ## 🌐 Application Under Test
 
 - **URL: https://www.saucedemo.com/
 
-```
 ---
-
-```
 
 ## 🔮 Future Enhancements
 
@@ -137,5 +121,4 @@ saucedemo-ui-automation/
 
 - **CI integration using GitHub Actions
 
-```
 ---
