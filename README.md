@@ -65,47 +65,52 @@ saucedemo-ui-automation/
 
 ---
 
-##  How to Run the Tests
+🚀 How to Run the Tests
+▶️ Option 1: Using Eclipse IDE
 
-### Option 1: Using Eclipse
-1. Import the project as a **Maven project**
-2. Right-click `testng.xml`
-3. Select **Run As → TestNG Suite**
+Import the project as a Maven Project
 
-### Option 2: Using Maven (CLI)
-```bash
+Locate the testng.xml file
+
+Right-click → Run As → TestNG Suite
+
+▶️ Option 2: Using Maven (Command Line)
+
 mvn test
 
-##  Test Reports
+```
 
-- Uses default TestNG HTML reports
+📊 Test Reports
 
-- Reports generated under: test-output/index.html
+Uses default TestNG HTML reports
 
-##  Key Design Highlights
+Reports are generated at: test-output/index.html
 
-- Clean Maven project structure
 
-- TestNG lifecycle management using @BeforeMethod / @AfterMethod
+🧩 Key Design Highlights
 
-- Helper classes for reusable flows (login)
+Clean and structured Maven project layout
 
-- Independent tests (no shared state)
+Test lifecycle handled using @BeforeMethod and @AfterMethod
 
-- Strong assertions instead of console prints
+Reusable helper classes for common flows (e.g., login)
 
-- Stable locators and explicit waits where required
+Tests are independent with no shared state
 
-##  Application Under Test
+Strong assertions instead of console print statements
 
-- URL: https://www.saucedemo.com/
+Stable locators with explicit waits where required
 
-##  Future Enhancements
+🌐 Application Under Test
 
-- Page Object Model (POM) refactor
+URL: https://www.saucedemo.com/
 
-- Extent Reports integration
+🔮 Future Enhancements
 
-- Screenshot capture on failure
+Refactor framework to Page Object Model (POM)
 
-- CI integration using GitHub Actions
+Integrate Extent Reports
+
+Add screenshot capture on test failure
+
+CI integration using GitHub Actions
