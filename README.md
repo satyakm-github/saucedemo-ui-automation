@@ -20,18 +20,22 @@ This project focuses on **realistic test scenarios**, **clean assertions**, and 
 
 ## 📂 Project Structure
 
-saucedemo-ui-automation
+```text
+saucedemo-ui-automation/
 ├── pom.xml
 ├── testng.xml
 └── src
-├── test
-│ └── java
-│ └── com/keerthi/automation/saucedemo
-│ ├── BaseTest.java
-│ ├── LoginHelper.java
-│ └── SauceDemoSmokeTests.java
-└── main
-└── java
+    ├── main
+    │   └── java
+    └── test
+        └── java
+            └── com
+                └── keerthi
+                    └── automation
+                        └── saucedemo
+                            ├── BaseTest.java
+                            ├── LoginHelper.java
+                            └── SauceDemoSmokeTests.java
 
 
 ---
