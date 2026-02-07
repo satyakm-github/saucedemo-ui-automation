@@ -37,7 +37,7 @@ saucedemo-ui-automation/
                             ├── LoginHelper.java
                             └── SauceDemoSmokeTests.java
 
-
+```
 ---
 
 ## ✅ Automated Test Scenarios
